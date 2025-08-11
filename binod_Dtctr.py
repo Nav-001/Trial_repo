@@ -9,11 +9,12 @@ def cb(file):
             with open(item) as f:
                 f1 = f.read()
             if "binod" in f1.lower():
-                print(f"binod mil gaya bhai , {item} ke andar")
+                print(f" We had found the binod , {item} ke andar")
             else:
                 print(f"{item} ke andar nahi mila sala")
             
 cb(file)
+
 
 
 
