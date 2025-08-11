@@ -11,7 +11,7 @@ def cb(file):
             if "binod" in f1.lower():
                 print(f" We had found the binod , {item} ke andar")
             else:
-                print(f"{item} ke andar nahi mila sala")
+                print(f"we didn't find binod in {item} ")
             
 cb(file)
 
